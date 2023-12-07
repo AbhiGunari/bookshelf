@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>upload images</title>
+    <link rel="stylesheet" href="sell.css">
+</head>
+
+<body>
+    <div id="container6">
+        <div id="logcon">
+            <div id="logo"> </div>
+            <div id="logtag">sell_it</div>
+        </div>
+        <div id="ip">          
+                <form action="upload.php" method="post" enctype="multipart/form-data">
+                    <select name="item" id="itemname" onchange="showForm(this.value)" required>
+                        <option value="book">Book</option>
+                        <option value="medicine">Medicine</option>
+                    </select>
+                    <input id="name" type="text" placeholder="Enter the name of the item" name="name" required>
+                    <input type="number" name="cost" placeholder="Enter the cost of the item" id="cost" required>
+                <div id="booksForm">
+                    <input id="writer" type="text" placeholder="Enter name of the writer" name="writer">
+               </div>
+
+            <div id="medicinesForm">              
+                    <label for="expiry_date" style="font-size: 20px;margin-left: 20px;">expiry date</label>
+                    <input type="date" name="expiry_date">
+            </div>
+            <textarea type="textarea" id="desc" name="description"
+                        placeholder="tell more about the item"></textarea>
+            <input type="file" name="image" placeholder="Upload the images of the item" id="file" accept=".jpeg,.jpg,.png">
+                    <button type="submit" id="submit" value="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script> 
+        function showForm(choice) {
+            var books = document.getElementById('booksForm');
+            var medicines = document.getElementById('medicinesForm');
+            if (choice === 'book') {
+                document.getElementById('booksForm').style.display = 'block';
+                document.getElementById('medicinesForm').style.display = 'none';
+            } else if (choice === 'medicine') {
+                document.getElementById('booksForm').style.display = 'none';
+                document.getElementById('medicinesForm').style.display = 'block';
+            }
+        }
+
+
+//         function handleLocationChoice(choice) {
+//     var manualLocation = document.getElementById('manualLocation');
+//     var currentLocation = document.getElementById('currentLocation');
+    
+//     if (choice === 'manual') {
+//       manualLocation.style.display = 'block';
+//       currentLocation.style.display = 'none';
+//     } else if (choice === 'current') {
+//       manualLocation.style.display = 'none';
+//       currentLocation.style.display = 'block';
+//     }
+//   } 
+    </script>
+    
+    
+    
+    
+</body>
+
+</html>

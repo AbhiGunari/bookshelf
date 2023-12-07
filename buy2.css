@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.book-details {
+    display: flex;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.book-image {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.book-image img {
+    max-width: 100%; /* Ensure the image doesn't exceed the container's width */
+    height: auto; /* Maintain the image's aspect ratio */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px; /* Set a fixed width for consistency */
+    height: 300px; /* Set a fixed height for consistency */
+}
+
+.book-info {
+    flex: 1;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.buy-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: #0056b3;
+}
+
+#belowcont {
+    display: flex;
+    /* flex-direction: column; */
+}
+
+#a {
+    margin-top: 30px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin-left: 20px;
+    /* width: 200px; */
+}
+
+#image1 {
+    width: 100vw;
+    height: 100vh;
+    /* padding: 11px;
+    margin: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+
+
+.image-div {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 250px;
+    height: 450px;
+    overflow: hidden;
+    background-color: #b6d3ff;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    /* position: relative; */
+ 
+}
+
+#box{
+    display: flex;
+    flex-direction: column;
+}
+
+.image-div img {
+    /* position: absolute; */
+    /* top: 0; */
+    left: 0;
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+   
+}
+
+#cont{
+    font-size: 20px;
+}
+
+.name{
+    padding: 3px;
+    margin: 0;
+}

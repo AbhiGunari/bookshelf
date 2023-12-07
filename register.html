@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <div id="container6">
+        <div id="logcon">
+            <div id="logo"> </div>
+            <div id="logtag">bookShelf</div>
+        </div>
+        <div id="ip">
+            <form action="user_reg.php" method="post" >
+                <input id="email" type="email" placeholder="Enter the mail ID" name="email" required>
+                <!-- <div id="names"> -->
+                    <input id="fname" type="text" placeholder="First Name" name="fname" required>
+                    <input id="lname" type="text" placeholder="Last Name" name="lname">
+                   
+                <!-- </div> -->
+                <input type="tel" maxlength="10" id="mobile" placeholder="Enter mobile number" name="mobile"
+                required>
+                <input id="pwd" type="password" placeholder="Enter your password" name="pwd" required>
+                <input id="cpwd" type="password" placeholder="Conform your password" name="cpwd" required>
+                <input id="submit" type="submit" placeholder="Register" name="submit">
+            </form>
+        </div>
+        <div id="login">Already have an account? <a href="login.html">Login</a></div>
+        <div id="success">
+
+        </div>  
+        <script src="register.js"></script>
+    </div>
+</body>
+
+</html>

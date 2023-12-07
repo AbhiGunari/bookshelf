@@ -1,0 +1,161 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar{
+    height:40px;
+    background-color:black;
+    display:flex;
+    align-items:center;
+    /* justify-content: space-between; */
+}
+
+#navbar1{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+#navbar2{
+    width: 35%;
+    float: right;
+}
+
+#navbar form input{
+    padding:6px;
+    width:340px;
+    /* margin-left:100px; */
+}
+
+#navbar form button{
+    padding:6px;
+    width:50px;
+    background-color:#ff5e00;
+}
+
+#clear-search{
+    background-color: white;
+    padding: 5px;
+    height: 19px;
+    margin-left: -5px;
+}
+
+#belowcont {
+    display: flex;
+    flex-direction: column;
+}
+
+#content{
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+#a {
+    margin-top: 30px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin-left: 20px;
+    /* width: 200px; */
+}
+
+#image1 {
+    /* width: 100vw; */
+    height: 100vh;
+    /* padding: 11px;
+    margin: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+
+
+.image-div {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 250px;
+    height: 450px;
+    overflow: hidden;
+    background-color: #b6d3ff;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    /* position: relative; */
+ 
+}
+
+#box{
+    display: flex;
+    flex-direction: column;
+}
+
+.image-div img {
+    /* position: absolute; */
+    /* top: 0; */
+    left: 0;
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+   
+}
+
+#cont{
+    font-size: 20px;
+}
+
+.name{
+    padding: 3px;
+    margin: 0;
+}
+
+#searchitem img{
+    height: 200px;
+}
+#search{
+    outline: none;
+    /* border: none; */
+}
+
+/* #imagename{
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+} */
+
+#clear-search{
+    cursor: pointer;
+}
+
+/* @media only screen and (max-width: 600px) {
+    #navbar {
+        flex-direction: column;
+    }
+
+    #navbar form {
+        margin-bottom: 10px;
+    }
+
+    #navbar1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #navbar2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #navbar form input {
+        width: 70%;
+    }
+
+    #navbar form button {
+        width: 25%;
+    }
+} */

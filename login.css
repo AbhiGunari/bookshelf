@@ -1,0 +1,184 @@
+body{
+    /* background-color: #fad4c0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center; */
+    background-color: #fad4c0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+/* 
+#container{
+    border-radius: 5px;
+    border: 2px solid #000;
+    height: 500px;
+    /* width: 400px; ]
+    display: flex;
+    margin-top: 35px;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    align-content: center;
+    background-color: aliceblue;
+
+    width: 80%;
+    max-width: 400px;
+    align-items: flex-start;
+}
+.con{
+    background-color: aliceblue;
+    margin-left: 15px;
+}
+#a,#b,#c,#e{
+    margin-left: 40px;
+}
+#a
+{ height: 80px;
+    width: 80px;
+    margin-top: 25px;
+    background-image: url(https://i.imgur.com/CatAWcl.jpg);
+    background-size: cover;
+}
+#b{
+    font-size: 40px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+#mail{
+    padding: 10px;
+    margin:15px 19px;
+    width: 300px;
+    border: solid 2px #000;
+    border-radius: 5px;
+}
+#mobile{
+    padding: 10px;
+    margin:15px 19px;
+    width: 300px;
+    border: solid 2px #000;
+    border-radius: 5px;
+}
+
+#pwd{
+    padding: 10px;
+    margin:15px 19px;
+    width: 300px;
+    border: solid 2px #000;
+    border-radius: 5px;
+}
+#sub{
+    padding: 10px;
+    margin:15px 19px;
+    width: 320px;
+    border: solid 2px #000;
+    border-radius: 5px;
+}
+#sub:hover{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #a52e2e;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+} */
+ 
+body{
+    /* background-color: #fad4c0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center; */
+    background-color: #fad4c0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+#container {
+    border-radius: 5px;
+    border: 2px solid #000;
+    width: 80%;
+    max-width: 400px;
+    /* display: flex; */
+    flex-direction: column;
+    margin-top: 35px;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.con {
+    background-color: aliceblue;
+    margin-left: 15px;
+}
+
+#a, #b, #c, #e {
+    margin-left: 20px;
+}
+
+#a {
+    height: 80px;
+    width: 80px;
+    margin-top: 25px;
+    background-image: url(https://i.imgur.com/CatAWcl.jpg);
+    background-size: cover;
+}
+
+#b {
+    font-size: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 100%;
+}
+
+#mail,
+#mobile,
+#pwd {
+    padding: 10px;
+    margin: 15px 0;
+    width: 88%;
+    border: solid 2px #000;
+    border-radius: 5px;
+}
+#sub{
+    padding: 10px;
+    margin: 15px 0;
+    width: 92%;
+    border: solid 2px #000;
+    border-radius: 5px;
+}
+
+#sub:hover {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a52e2e;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+} 
